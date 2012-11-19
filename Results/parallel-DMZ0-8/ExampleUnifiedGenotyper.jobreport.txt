@@ -1,0 +1,33 @@
+#:GATKReport.v1.1:5
+#:GATKTable:10:1:%s:%s:%s:%s:%s:%s:%s:%s:%s:%s:;
+#:GATKTable:Concat:Job logs for Concat
+jobName                          exechosts  startTime      formattedStartTime    analysisName  iteration  intermediate  formattedDoneTime     runtime  doneTime     
+ExampleUnifiedGenotyper-1-11_31  sparkdmz0  1353329790952  12-11-19 7:56:30:952  Concat                1  false         12-11-19 7:56:30:965       13  1353329790965
+
+#:GATKTable:10:1:%s:%s:%s:%s:%s:%s:%s:%s:%s:%s:;
+#:GATKTable:Gather:Job logs for Gather
+jobName                          exechosts  startTime      formattedStartTime    analysisName  iteration  intermediate  formattedDoneTime     runtime  doneTime     
+ExampleUnifiedGenotyper-1-10_38  sparkdmz0  1353329761616  12-11-19 7:56:01:616  Gather                1  false         12-11-19 7:56:16:880    15264  1353329776880
+
+#:GATKTable:10:1:%s:%s:%s:%s:%s:%s:%s:%s:%s:%s:;
+#:GATKTable:LocusScatterFunction:Job logs for LocusScatterFunction
+jobName                         exechosts  startTime      formattedStartTime    analysisName          iteration  intermediate  formattedDoneTime     runtime  doneTime     
+ExampleUnifiedGenotyper-1-1_36  sparkdmz0  1353329640857  12-11-19 7:54:00:857  LocusScatterFunction          1  true          12-11-19 7:54:00:881       24  1353329640881
+
+#:GATKTable:10:8:%s:%s:%s:%s:%s:%s:%s:%s:%s:%s:;
+#:GATKTable:UnifiedGenotyper:Job logs for UnifiedGenotyper
+jobName                         exechosts  startTime      formattedStartTime    analysisName      iteration  intermediate  formattedDoneTime     runtime  doneTime     
+ExampleUnifiedGenotyper-1-5_28  sparkdmz0  1353329670974  12-11-19 7:54:30:974  UnifiedGenotyper          1  true          12-11-19 7:55:32:245    61271  1353329732245
+ExampleUnifiedGenotyper-1-4_29  sparkdmz0  1353329670939  12-11-19 7:54:30:939  UnifiedGenotyper          1  true          12-11-19 7:55:33:211    62272  1353329733211
+ExampleUnifiedGenotyper-1-2_30  sparkdmz0  1353329670890  12-11-19 7:54:30:890  UnifiedGenotyper          1  true          12-11-19 7:55:34:636    63746  1353329734636
+ExampleUnifiedGenotyper-1-8_33  sparkdmz0  1353329671038  12-11-19 7:54:31:038  UnifiedGenotyper          1  true          12-11-19 7:55:20:809    49771  1353329720809
+ExampleUnifiedGenotyper-1-3_34  sparkdmz0  1353329670921  12-11-19 7:54:30:921  UnifiedGenotyper          1  true          12-11-19 7:55:29:274    58353  1353329729274
+ExampleUnifiedGenotyper-1-9_35  sparkdmz0  1353329671057  12-11-19 7:54:31:057  UnifiedGenotyper          1  true          12-11-19 7:55:25:728    54671  1353329725728
+ExampleUnifiedGenotyper-1-6_37  sparkdmz0  1353329671003  12-11-19 7:54:31:003  UnifiedGenotyper          1  true          12-11-19 7:55:33:294    62291  1353329733294
+ExampleUnifiedGenotyper-1-7_39  sparkdmz0  1353329671020  12-11-19 7:54:31:020  UnifiedGenotyper          1  true          12-11-19 7:55:20:809    49789  1353329720809
+
+#:GATKTable:10:1:%s:%s:%s:%s:%s:%s:%s:%s:%s:%s:;
+#:GATKTable:VariantEval:Job logs for VariantEval
+jobName                       exechosts  startTime      formattedStartTime    analysisName  iteration  intermediate  formattedDoneTime     runtime  doneTime     
+ExampleUnifiedGenotyper-2_32  sparkdmz0  1353329791048  12-11-19 7:56:31:048  VariantEval           1  false         12-11-19 7:56:44:705    13657  1353329804705
+

@@ -1,0 +1,236 @@
+LocusScatterFunction: List(/home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam.bai, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bai, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleFASTA.fasta) > List(/home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_1_of_8/scatter.intervals, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_2_of_8/scatter.intervals, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_3_of_8/scatter.intervals, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_4_of_8/scatter.intervals, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_5_of_8/scatter.intervals, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_6_of_8/scatter.intervals, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_7_of_8/scatter.intervals, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_8_of_8/scatter.intervals)
+Done.
+
+INFO  07:54:40,737 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:40,750 HelpFormatter - The Genome Analysis Toolkit (GATK) v2.2-13-g188e560, Compiled 2012/11/19 07:40:54 
+INFO  07:54:40,750 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  07:54:40,750 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  07:54:40,765 HelpFormatter - Program Args: -T UnifiedGenotyper -I /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam -L /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_1_of_8/scatter.intervals -R /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleFASTA.fasta -o /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_1_of_8/exampleBAM.unfiltered.vcf 
+INFO  07:54:40,765 HelpFormatter - Date/Time: 2012/11/19 07:54:40 
+INFO  07:54:40,765 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:40,765 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:40,784 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  07:54:46,594 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE Target Coverage: 250  
+INFO  07:54:47,068 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam.bai is older than BAM /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam
+INFO  07:54:47,805 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.01 
+INFO  07:54:48,961 GenomeAnalysisEngine - Processing 12500 bp from intervals 
+INFO  07:54:48,970 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  07:54:48,970 ProgressMeter -        Location processed.sites  runtime per.1M.sites completed total.runtime remaining 
+WARN  07:54:50,233 UnifiedGenotyper - setting contamination down-sampling fraction to 0.0 because it is not enabled in GATK-lite 
+INFO  07:55:04,523 ProgressMeter -            done        1.25e+04   15.6 s       20.7 m    100.0%        15.6 s     0.0 s 
+INFO  07:55:04,523 ProgressMeter - Total runtime 15.55 secs, 0.26 min, 0.00 hours 
+INFO  07:55:04,523 MicroScheduler - 0 reads were filtered out during traversal out of 5 total (0.00%) 
+INFO  07:55:04,523 NSRuntimeProfile - Input   time:    0.7 s ( 4.21%) 
+INFO  07:55:04,524 NSRuntimeProfile - Map     time:   11.7 s (75.57%) 
+INFO  07:55:04,524 NSRuntimeProfile - Reduce  time:    0.0 s ( 0.14%) 
+INFO  07:55:04,524 NSRuntimeProfile - Outside time:    3.1 s (20.07%) 
+
+INFO  07:54:42,224 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:43,337 HelpFormatter - The Genome Analysis Toolkit (GATK) v2.2-13-g188e560, Compiled 2012/11/19 07:40:54 
+INFO  07:54:43,337 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  07:54:43,337 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  07:54:45,840 HelpFormatter - Program Args: -T UnifiedGenotyper -I /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam -L /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_2_of_8/scatter.intervals -R /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleFASTA.fasta -o /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_2_of_8/exampleBAM.unfiltered.vcf 
+INFO  07:54:45,840 HelpFormatter - Date/Time: 2012/11/19 07:54:42 
+INFO  07:54:45,840 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:45,840 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:46,580 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  07:54:51,273 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE Target Coverage: 250  
+INFO  07:54:51,408 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam.bai is older than BAM /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam
+INFO  07:54:51,501 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.01 
+INFO  07:54:52,096 GenomeAnalysisEngine - Processing 12500 bp from intervals 
+INFO  07:54:52,603 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  07:54:52,603 ProgressMeter -        Location processed.sites  runtime per.1M.sites completed total.runtime remaining 
+WARN  07:54:52,780 UnifiedGenotyper - setting contamination down-sampling fraction to 0.0 because it is not enabled in GATK-lite 
+INFO  07:54:59,196 ProgressMeter -            done        1.25e+04    6.6 s        8.8 m    100.0%         6.6 s     0.0 s 
+INFO  07:54:59,197 ProgressMeter - Total runtime 6.59 secs, 0.11 min, 0.00 hours 
+INFO  07:54:59,197 MicroScheduler - 0 reads were filtered out during traversal out of 2 total (0.00%) 
+INFO  07:54:59,197 NSRuntimeProfile - Input   time:    0.1 s ( 1.50%) 
+INFO  07:54:59,197 NSRuntimeProfile - Map     time:    2.4 s (34.44%) 
+INFO  07:54:59,198 NSRuntimeProfile - Reduce  time:    0.0 s ( 0.42%) 
+INFO  07:54:59,198 NSRuntimeProfile - Outside time:    4.5 s (63.64%) 
+
+INFO  07:54:46,571 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:46,575 HelpFormatter - The Genome Analysis Toolkit (GATK) v2.2-13-g188e560, Compiled 2012/11/19 07:40:54 
+INFO  07:54:46,575 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  07:54:46,575 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  07:54:46,581 HelpFormatter - Program Args: -T UnifiedGenotyper -I /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam -L /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_3_of_8/scatter.intervals -R /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleFASTA.fasta -o /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_3_of_8/exampleBAM.unfiltered.vcf 
+INFO  07:54:46,581 HelpFormatter - Date/Time: 2012/11/19 07:54:45 
+INFO  07:54:46,581 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:46,581 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:46,779 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  07:54:51,401 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE Target Coverage: 250  
+INFO  07:54:52,082 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam.bai is older than BAM /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam
+INFO  07:54:52,605 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.52 
+INFO  07:54:52,634 GenomeAnalysisEngine - Processing 12500 bp from intervals 
+INFO  07:54:52,645 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  07:54:52,645 ProgressMeter -        Location processed.sites  runtime per.1M.sites completed total.runtime remaining 
+WARN  07:54:54,353 UnifiedGenotyper - setting contamination down-sampling fraction to 0.0 because it is not enabled in GATK-lite 
+INFO  07:55:13,649 ProgressMeter -            done        1.25e+04   21.0 s       28.0 m    100.0%        21.0 s     0.0 s 
+INFO  07:55:13,649 ProgressMeter - Total runtime 21.00 secs, 0.35 min, 0.01 hours 
+INFO  07:55:13,649 MicroScheduler - 0 reads were filtered out during traversal out of 6 total (0.00%) 
+INFO  07:55:13,649 NSRuntimeProfile - Input   time:    0.6 s ( 3.03%) 
+INFO  07:55:13,650 NSRuntimeProfile - Map     time:   15.4 s (73.33%) 
+INFO  07:55:13,650 NSRuntimeProfile - Reduce  time:    0.1 s ( 0.32%) 
+INFO  07:55:13,650 NSRuntimeProfile - Outside time:    4.9 s (23.32%) 
+
+INFO  07:54:42,987 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:42,990 HelpFormatter - The Genome Analysis Toolkit (GATK) v2.2-13-g188e560, Compiled 2012/11/19 07:40:54 
+INFO  07:54:42,990 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  07:54:42,990 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  07:54:42,994 HelpFormatter - Program Args: -T UnifiedGenotyper -I /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam -L /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_4_of_8/scatter.intervals -R /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleFASTA.fasta -o /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_4_of_8/exampleBAM.unfiltered.vcf 
+INFO  07:54:42,994 HelpFormatter - Date/Time: 2012/11/19 07:54:42 
+INFO  07:54:42,994 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:42,994 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:43,015 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  07:54:46,983 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE Target Coverage: 250  
+INFO  07:54:47,015 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam.bai is older than BAM /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam
+INFO  07:54:47,811 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.03 
+INFO  07:54:48,584 GenomeAnalysisEngine - Processing 12500 bp from intervals 
+INFO  07:54:48,592 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  07:54:48,592 ProgressMeter -        Location processed.sites  runtime per.1M.sites completed total.runtime remaining 
+WARN  07:54:50,818 UnifiedGenotyper - setting contamination down-sampling fraction to 0.0 because it is not enabled in GATK-lite 
+INFO  07:55:02,007 ProgressMeter -            done        1.25e+04   13.4 s       17.9 m    100.0%        13.4 s     0.0 s 
+INFO  07:55:02,007 ProgressMeter - Total runtime 13.42 secs, 0.22 min, 0.00 hours 
+INFO  07:55:02,007 MicroScheduler - 0 reads were filtered out during traversal out of 4 total (0.00%) 
+INFO  07:55:02,008 NSRuntimeProfile - Input   time:    1.3 s ( 9.52%) 
+INFO  07:55:02,008 NSRuntimeProfile - Map     time:    8.5 s (63.19%) 
+INFO  07:55:02,008 NSRuntimeProfile - Reduce  time:    0.8 s ( 5.73%) 
+INFO  07:55:02,008 NSRuntimeProfile - Outside time:    2.9 s (21.57%) 
+
+INFO  07:54:48,594 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:48,596 HelpFormatter - The Genome Analysis Toolkit (GATK) v2.2-13-g188e560, Compiled 2012/11/19 07:40:54 
+INFO  07:54:48,596 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  07:54:48,596 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  07:54:48,600 HelpFormatter - Program Args: -T UnifiedGenotyper -I /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam -L /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_5_of_8/scatter.intervals -R /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleFASTA.fasta -o /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_5_of_8/exampleBAM.unfiltered.vcf 
+INFO  07:54:48,600 HelpFormatter - Date/Time: 2012/11/19 07:54:48 
+INFO  07:54:48,600 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:48,600 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:48,625 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  07:54:54,154 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE Target Coverage: 250  
+INFO  07:54:54,159 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam.bai is older than BAM /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam
+INFO  07:54:54,327 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.17 
+INFO  07:54:54,345 GenomeAnalysisEngine - Processing 12500 bp from intervals 
+INFO  07:54:54,353 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  07:54:54,353 ProgressMeter -        Location processed.sites  runtime per.1M.sites completed total.runtime remaining 
+WARN  07:54:54,390 UnifiedGenotyper - setting contamination down-sampling fraction to 0.0 because it is not enabled in GATK-lite 
+INFO  07:55:14,231 ProgressMeter -            done        1.25e+04   19.8 s       26.4 m    100.0%        19.8 s     0.0 s 
+INFO  07:55:14,241 ProgressMeter - Total runtime 19.89 secs, 0.33 min, 0.01 hours 
+INFO  07:55:14,241 MicroScheduler - 0 reads were filtered out during traversal out of 8 total (0.00%) 
+INFO  07:55:14,241 NSRuntimeProfile - Input   time:    5.1 s (25.87%) 
+INFO  07:55:14,241 NSRuntimeProfile - Map     time:   12.6 s (63.46%) 
+INFO  07:55:14,242 NSRuntimeProfile - Reduce  time:    0.0 s ( 0.09%) 
+INFO  07:55:14,242 NSRuntimeProfile - Outside time:    2.1 s (10.58%) 
+
+INFO  07:54:45,696 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:45,698 HelpFormatter - The Genome Analysis Toolkit (GATK) v2.2-13-g188e560, Compiled 2012/11/19 07:40:54 
+INFO  07:54:45,698 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  07:54:45,698 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  07:54:45,703 HelpFormatter - Program Args: -T UnifiedGenotyper -I /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam -L /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_6_of_8/scatter.intervals -R /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleFASTA.fasta -o /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_6_of_8/exampleBAM.unfiltered.vcf 
+INFO  07:54:45,703 HelpFormatter - Date/Time: 2012/11/19 07:54:45 
+INFO  07:54:45,703 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:45,703 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:46,515 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  07:54:50,396 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE Target Coverage: 250  
+INFO  07:54:50,401 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam.bai is older than BAM /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam
+INFO  07:54:50,411 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.01 
+INFO  07:54:50,428 GenomeAnalysisEngine - Processing 12500 bp from intervals 
+INFO  07:54:50,435 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  07:54:50,435 ProgressMeter -        Location processed.sites  runtime per.1M.sites completed total.runtime remaining 
+WARN  07:54:50,468 UnifiedGenotyper - setting contamination down-sampling fraction to 0.0 because it is not enabled in GATK-lite 
+INFO  07:54:52,557 ProgressMeter -            done        1.25e+04    2.1 s        2.8 m    100.0%         2.1 s     0.0 s 
+INFO  07:54:52,557 ProgressMeter - Total runtime 2.12 secs, 0.04 min, 0.00 hours 
+INFO  07:54:52,558 NSRuntimeProfile - Input   time:    0.6 s (30.03%) 
+INFO  07:54:52,558 NSRuntimeProfile - Map     time:    0.6 s (29.32%) 
+INFO  07:54:52,558 NSRuntimeProfile - Reduce  time:    0.0 s ( 1.74%) 
+INFO  07:54:52,558 NSRuntimeProfile - Outside time:    0.8 s (38.91%) 
+
+INFO  07:54:49,706 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:49,709 HelpFormatter - The Genome Analysis Toolkit (GATK) v2.2-13-g188e560, Compiled 2012/11/19 07:40:54 
+INFO  07:54:49,710 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  07:54:49,710 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  07:54:49,714 HelpFormatter - Program Args: -T UnifiedGenotyper -I /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam -L /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_7_of_8/scatter.intervals -R /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleFASTA.fasta -o /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_7_of_8/exampleBAM.unfiltered.vcf 
+INFO  07:54:49,714 HelpFormatter - Date/Time: 2012/11/19 07:54:49 
+INFO  07:54:49,714 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:49,714 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:50,250 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  07:54:53,153 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE Target Coverage: 250  
+INFO  07:54:53,157 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam.bai is older than BAM /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam
+INFO  07:54:53,338 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.18 
+INFO  07:54:53,353 GenomeAnalysisEngine - Processing 12500 bp from intervals 
+INFO  07:54:53,360 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  07:54:53,360 ProgressMeter -        Location processed.sites  runtime per.1M.sites completed total.runtime remaining 
+WARN  07:54:53,413 UnifiedGenotyper - setting contamination down-sampling fraction to 0.0 because it is not enabled in GATK-lite 
+INFO  07:54:56,179 ProgressMeter -            done        1.25e+04    2.8 s        3.8 m    100.0%         2.8 s     0.0 s 
+INFO  07:54:56,179 ProgressMeter - Total runtime 2.82 secs, 0.05 min, 0.00 hours 
+INFO  07:54:56,179 NSRuntimeProfile - Input   time:    1.2 s (43.75%) 
+INFO  07:54:56,179 NSRuntimeProfile - Map     time:    1.3 s (47.16%) 
+INFO  07:54:56,180 NSRuntimeProfile - Reduce  time:    0.0 s ( 1.16%) 
+INFO  07:54:56,180 NSRuntimeProfile - Outside time:    0.2 s ( 7.93%) 
+
+INFO  07:54:44,772 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:44,774 HelpFormatter - The Genome Analysis Toolkit (GATK) v2.2-13-g188e560, Compiled 2012/11/19 07:40:54 
+INFO  07:54:44,774 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  07:54:44,774 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  07:54:44,778 HelpFormatter - Program Args: -T UnifiedGenotyper -I /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam -L /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_8_of_8/scatter.intervals -R /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleFASTA.fasta -o /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_8_of_8/exampleBAM.unfiltered.vcf 
+INFO  07:54:44,778 HelpFormatter - Date/Time: 2012/11/19 07:54:44 
+INFO  07:54:44,778 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:44,778 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:54:45,662 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  07:54:47,188 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE Target Coverage: 250  
+INFO  07:54:47,193 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam.bai is older than BAM /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam
+INFO  07:54:47,553 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.36 
+INFO  07:54:48,634 GenomeAnalysisEngine - Processing 12500 bp from intervals 
+INFO  07:54:48,641 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  07:54:48,641 ProgressMeter -        Location processed.sites  runtime per.1M.sites completed total.runtime remaining 
+WARN  07:54:50,840 UnifiedGenotyper - setting contamination down-sampling fraction to 0.0 because it is not enabled in GATK-lite 
+INFO  07:54:55,863 ProgressMeter -            done        1.25e+04    7.2 s        9.6 m    100.0%         7.2 s     0.0 s 
+INFO  07:54:55,863 ProgressMeter - Total runtime 7.22 secs, 0.12 min, 0.00 hours 
+INFO  07:54:55,864 MicroScheduler - 0 reads were filtered out during traversal out of 8 total (0.00%) 
+INFO  07:54:55,864 NSRuntimeProfile - Input   time:    0.2 s ( 2.46%) 
+INFO  07:54:55,864 NSRuntimeProfile - Map     time:    3.6 s (49.39%) 
+INFO  07:54:55,865 NSRuntimeProfile - Reduce  time:    0.0 s ( 0.45%) 
+INFO  07:54:55,865 NSRuntimeProfile - Outside time:    3.4 s (47.71%) 
+
+INFO  07:56:06,178 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:56:06,179 HelpFormatter - The Genome Analysis Toolkit (GATK) v2.2-13-g188e560, Compiled 2012/11/19 07:40:54 
+INFO  07:56:06,179 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  07:56:06,179 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  07:56:06,183 HelpFormatter - Program Args: -T CombineVariants -R /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleFASTA.fasta -V:input0 /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_1_of_8/exampleBAM.unfiltered.vcf -V:input1 /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_2_of_8/exampleBAM.unfiltered.vcf -V:input2 /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_3_of_8/exampleBAM.unfiltered.vcf -V:input3 /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_4_of_8/exampleBAM.unfiltered.vcf -V:input4 /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_5_of_8/exampleBAM.unfiltered.vcf -V:input5 /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_6_of_8/exampleBAM.unfiltered.vcf -V:input6 /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_7_of_8/exampleBAM.unfiltered.vcf -V:input7 /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_8_of_8/exampleBAM.unfiltered.vcf -o /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.unfiltered.vcf -assumeIdenticalSamples -suppressCommandLineHeader 
+INFO  07:56:06,183 HelpFormatter - Date/Time: 2012/11/19 07:56:06 
+INFO  07:56:06,183 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:56:06,183 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  07:56:06,188 ArgumentTypeDescriptor - Dynamically determined type of /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_1_of_8/exampleBAM.unfiltered.vcf to be VCF 
+INFO  07:56:06,189 ArgumentTypeDescriptor - Dynamically determined type of /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_2_of_8/exampleBAM.unfiltered.vcf to be VCF 
+INFO  07:56:06,190 ArgumentTypeDescriptor - Dynamically determined type of /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_3_of_8/exampleBAM.unfiltered.vcf to be VCF 
+INFO  07:56:06,191 ArgumentTypeDescriptor - Dynamically determined type of /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_4_of_8/exampleBAM.unfiltered.vcf to be VCF 
+INFO  07:56:06,192 ArgumentTypeDescriptor - Dynamically determined type of /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_5_of_8/exampleBAM.unfiltered.vcf to be VCF 
+INFO  07:56:06,193 ArgumentTypeDescriptor - Dynamically determined type of /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_6_of_8/exampleBAM.unfiltered.vcf to be VCF 
+INFO  07:56:06,194 ArgumentTypeDescriptor - Dynamically determined type of /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_7_of_8/exampleBAM.unfiltered.vcf to be VCF 
+INFO  07:56:06,195 ArgumentTypeDescriptor - Dynamically determined type of /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_8_of_8/exampleBAM.unfiltered.vcf to be VCF 
+INFO  07:56:06,201 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  07:56:06,327 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE Target Coverage: 1000  
+INFO  07:56:06,336 RMDTrackBuilder - Loading Tribble index from disk for file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_1_of_8/exampleBAM.unfiltered.vcf 
+INFO  07:56:06,355 RMDTrackBuilder - Loading Tribble index from disk for file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_2_of_8/exampleBAM.unfiltered.vcf 
+INFO  07:56:06,358 RMDTrackBuilder - Loading Tribble index from disk for file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_3_of_8/exampleBAM.unfiltered.vcf 
+INFO  07:56:06,360 RMDTrackBuilder - Loading Tribble index from disk for file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_4_of_8/exampleBAM.unfiltered.vcf 
+INFO  07:56:06,363 RMDTrackBuilder - Loading Tribble index from disk for file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_5_of_8/exampleBAM.unfiltered.vcf 
+INFO  07:56:06,365 RMDTrackBuilder - Loading Tribble index from disk for file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_6_of_8/exampleBAM.unfiltered.vcf 
+INFO  07:56:06,367 RMDTrackBuilder - Loading Tribble index from disk for file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_7_of_8/exampleBAM.unfiltered.vcf 
+INFO  07:56:06,369 RMDTrackBuilder - Loading Tribble index from disk for file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_8_of_8/exampleBAM.unfiltered.vcf 
+INFO  07:56:06,382 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  07:56:06,382 ProgressMeter -        Location processed.sites  runtime per.1M.sites completed total.runtime remaining 
+INFO  07:56:06,406 CombineVariants - Priority string not provided, using arbitrary genotyping order: null 
+WARN  07:56:06,446 VCFUtils$HeaderConflictWarner - Ignoring header line already in map: this header line = UnifiedGenotyper="analysis_type=UnifiedGenotyper input_file=[/home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam] read_buffer_size=null phone_home=STANDARD gatk_key=null tag=NA read_filter=[] intervals=[/home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_3_of_8/scatter.intervals] excludeIntervals=null interval_set_rule=UNION interval_merging=ALL interval_padding=0 reference_sequence=/home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleFASTA.fasta nonDeterministicRandomSeed=false disableRandomization=false maxRuntime=-1 maxRuntimeUnits=MINUTES downsampling_type=BY_SAMPLE downsample_to_fraction=null downsample_to_coverage=250 enable_experimental_downsampling=false baq=OFF baqGapOpenPenalty=40.0 performanceLog=null useOriginalQualities=false BQSR=null quantize_quals=0 disable_indel_quals=false emit_original_quals=false preserve_qscores_less_than=6 defaultBaseQualities=-1 validation_strictness=SILENT remove_program_records=false keep_program_records=false unsafe=null num_threads=1 num_cpu_threads_per_data_thread=1 num_io_threads=0 monitorThreadEfficiency=false num_bam_file_handles=null read_group_black_list=null pedigree=[] pedigreeString=[] pedigreeValidationType=STRICT allow_intervals_with_unindexed_bam=false generateShadowBCF=false logging_level=INFO log_to_file=null help=false genotype_likelihoods_model=SNP pcr_error_rate=1.0E-4 computeSLOD=false annotateNDA=false pair_hmm_implementation=ORIGINAL min_base_quality_score=17 max_deletion_fraction=0.05 min_indel_count_for_genotyping=5 min_indel_fraction_per_sample=0.25 indel_heterozygosity=1.25E-4 indelGapContinuationPenalty=10 indelGapOpenPenalty=45 indelHaplotypeSize=80 indelDebug=false ignoreSNPAlleles=false allReadsSP=false ignoreLaneInfo=false reference_sample_calls=(RodBinding name= source=UNBOUND) reference_sample_name=null sample_ploidy=2 min_quality_score=1 max_quality_score=40 site_quality_prior=20 min_power_threshold_for_calling=0.95 min_reference_depth=100 exclude_filtered_reference_sites=false heterozygosity=0.001 genotyping_mode=DISCOVERY output_mode=EMIT_VARIANTS_ONLY standard_min_confidence_threshold_for_calling=30.0 standard_min_confidence_threshold_for_emitting=30.0 alleles=(RodBinding name= source=UNBOUND) max_alternate_alleles=6 p_nonref_model=EXACT_INDEPENDENT contamination_fraction_to_filter=0.0 logRemovedReadsFromContaminationFiltering=null exactcallslog=null dbsnp=(RodBinding name= source=UNBOUND) comp=[] out=org.broadinstitute.sting.gatk.io.stubs.VariantContextWriterStub no_cmdline_in_header=org.broadinstitute.sting.gatk.io.stubs.VariantContextWriterStub sites_only=org.broadinstitute.sting.gatk.io.stubs.VariantContextWriterStub bcf=org.broadinstitute.sting.gatk.io.stubs.VariantContextWriterStub debug_file=null metrics_file=null annotation=[] excludeAnnotation=[] filter_mismatching_base_and_quals=false" already present header = UnifiedGenotyper="analysis_type=UnifiedGenotyper input_file=[/home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam] read_buffer_size=null phone_home=STANDARD gatk_key=null tag=NA read_filter=[] intervals=[/home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_4_of_8/scatter.intervals] excludeIntervals=null interval_set_rule=UNION interval_merging=ALL interval_padding=0 reference_sequence=/home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleFASTA.fasta nonDeterministicRandomSeed=false disableRandomization=false maxRuntime=-1 maxRuntimeUnits=MINUTES downsampling_type=BY_SAMPLE downsample_to_fraction=null downsample_to_coverage=250 enable_experimental_downsampling=false baq=OFF baqGapOpenPenalty=40.0 performanceLog=null useOriginalQualities=false BQSR=null quantize_quals=0 disable_indel_quals=false emit_original_quals=false preserve_qscores_less_than=6 defaultBaseQualities=-1 validation_strictness=SILENT remove_program_records=false keep_program_records=false unsafe=null num_threads=1 num_cpu_threads_per_data_thread=1 num_io_threads=0 monitorThreadEfficiency=false num_bam_file_handles=null read_group_black_list=null pedigree=[] pedigreeString=[] pedigreeValidationType=STRICT allow_intervals_with_unindexed_bam=false generateShadowBCF=false logging_level=INFO log_to_file=null help=false genotype_likelihoods_model=SNP pcr_error_rate=1.0E-4 computeSLOD=false annotateNDA=false pair_hmm_implementation=ORIGINAL min_base_quality_score=17 max_deletion_fraction=0.05 min_indel_count_for_genotyping=5 min_indel_fraction_per_sample=0.25 indel_heterozygosity=1.25E-4 indelGapContinuationPenalty=10 indelGapOpenPenalty=45 indelHaplotypeSize=80 indelDebug=false ignoreSNPAlleles=false allReadsSP=false ignoreLaneInfo=false reference_sample_calls=(RodBinding name= source=UNBOUND) reference_sample_name=null sample_ploidy=2 min_quality_score=1 max_quality_score=40 site_quality_prior=20 min_power_threshold_for_calling=0.95 min_reference_depth=100 exclude_filtered_reference_sites=false heterozygosity=0.001 genotyping_mode=DISCOVERY output_mode=EMIT_VARIANTS_ONLY standard_min_confidence_threshold_for_calling=30.0 standard_min_confidence_threshold_for_emitting=30.0 alleles=(RodBinding name= source=UNBOUND) max_alternate_alleles=6 p_nonref_model=EXACT_INDEPENDENT contamination_fraction_to_filter=0.0 logRemovedReadsFromContaminationFiltering=null exactcallslog=null dbsnp=(RodBinding name= source=UNBOUND) comp=[] out=org.broadinstitute.sting.gatk.io.stubs.VariantContextWriterStub no_cmdline_in_header=org.broadinstitute.sting.gatk.io.stubs.VariantContextWriterStub sites_only=org.broadinstitute.sting.gatk.io.stubs.VariantContextWriterStub bcf=org.broadinstitute.sting.gatk.io.stubs.VariantContextWriterStub debug_file=null metrics_file=null annotation=[] excludeAnnotation=[] filter_mismatching_base_and_quals=false" 
+INFO  07:56:06,477 ProgressMeter -            done        0.00e+00    0.1 s       26.1 h    100.0%         0.1 s     0.0 s 
+INFO  07:56:06,478 ProgressMeter - Total runtime 0.10 secs, 0.00 min, 0.00 hours 
+
+Concat: List(/home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/scatter/scatter.out, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_1_of_8/exampleBAM.unfiltered.vcf.out, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_2_of_8/exampleBAM.unfiltered.vcf.out, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_3_of_8/exampleBAM.unfiltered.vcf.out, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_4_of_8/exampleBAM.unfiltered.vcf.out, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_5_of_8/exampleBAM.unfiltered.vcf.out, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_6_of_8/exampleBAM.unfiltered.vcf.out, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_7_of_8/exampleBAM.unfiltered.vcf.out, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_8_of_8/exampleBAM.unfiltered.vcf.out, /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/gather-out/gather-exampleBAM.unfiltered.vcf.out) > /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.unfiltered.vcf.out
+Done.

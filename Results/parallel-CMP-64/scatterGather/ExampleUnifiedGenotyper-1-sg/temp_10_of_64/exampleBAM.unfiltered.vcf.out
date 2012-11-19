@@ -1,0 +1,23 @@
+INFO  08:25:00,341 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  08:25:00,344 HelpFormatter - The Genome Analysis Toolkit (GATK) v2.2-13-g188e560, Compiled 2012/11/19 08:22:48 
+INFO  08:25:00,344 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  08:25:00,344 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  08:25:00,349 HelpFormatter - Program Args: -T UnifiedGenotyper -I /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam -L /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_10_of_64/scatter.intervals -R /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleFASTA.fasta -o /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/.queue/scatterGather/ExampleUnifiedGenotyper-1-sg/temp_10_of_64/exampleBAM.unfiltered.vcf 
+INFO  08:25:00,349 HelpFormatter - Date/Time: 2012/11/19 08:25:00 
+INFO  08:25:00,349 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  08:25:00,349 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  08:25:00,380 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  08:25:00,440 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE Target Coverage: 250  
+INFO  08:25:00,446 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam.bai is older than BAM /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.bam
+INFO  08:25:00,459 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.01 
+INFO  08:25:00,484 GenomeAnalysisEngine - Processing 1562 bp from intervals 
+INFO  08:25:00,492 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  08:25:00,493 ProgressMeter -        Location processed.sites  runtime per.1M.sites completed total.runtime remaining 
+WARN  08:25:00,572 UnifiedGenotyper - setting contamination down-sampling fraction to 0.0 because it is not enabled in GATK-lite 
+INFO  08:25:00,915 ProgressMeter -            done        1.56e+03    0.4 s        4.5 m    100.0%         0.4 s     0.0 s 
+INFO  08:25:00,915 ProgressMeter - Total runtime 0.42 secs, 0.01 min, 0.00 hours 
+INFO  08:25:00,916 NSRuntimeProfile - Input   time:    0.0 s ( 7.88%) 
+INFO  08:25:00,916 NSRuntimeProfile - Map     time:    0.1 s (22.51%) 
+INFO  08:25:00,916 NSRuntimeProfile - Reduce  time:    0.0 s ( 0.52%) 
+INFO  08:25:00,916 NSRuntimeProfile - Outside time:    0.3 s (69.09%) 

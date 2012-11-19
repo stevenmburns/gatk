@@ -1,0 +1,22 @@
+INFO  08:25:59,022 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  08:25:59,024 HelpFormatter - The Genome Analysis Toolkit (GATK) v2.2-13-g188e560, Compiled 2012/11/19 08:22:48 
+INFO  08:25:59,024 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  08:25:59,024 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  08:25:59,028 HelpFormatter - Program Args: -T VariantEval -R /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleFASTA.fasta -o /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.unfiltered.eval -eval /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.unfiltered.vcf 
+INFO  08:25:59,028 HelpFormatter - Date/Time: 2012/11/19 08:25:59 
+INFO  08:25:59,028 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  08:25:59,028 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  08:25:59,039 ArgumentTypeDescriptor - Dynamically determined type of /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.unfiltered.vcf to be VCF 
+INFO  08:25:59,045 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  08:25:59,110 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE Target Coverage: 1000  
+INFO  08:25:59,123 RMDTrackBuilder - Loading Tribble index from disk for file /home/smburns/Applications/gatk2/Queue-2.2-8-gec077cd/resources/exampleBAM.unfiltered.vcf 
+INFO  08:25:59,161 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  08:25:59,161 ProgressMeter -        Location processed.sites  runtime per.1M.sites completed total.runtime remaining 
+INFO  08:25:59,245 VariantEval - Creating 3 combinatorial stratification states 
+INFO  08:25:59,262 VariantEval - Finalizing variant report 
+INFO  08:25:59,379 ProgressMeter -            done        0.00e+00    0.2 s       60.3 h    100.0%         0.2 s     0.0 s 
+INFO  08:25:59,380 ProgressMeter - Total runtime 0.22 secs, 0.00 min, 0.00 hours 
+INFO  08:25:59,380 NSRuntimeProfile - Input   time:    0.0 s ( 0.00%) 
+INFO  08:25:59,380 NSRuntimeProfile - Map     time:    0.0 s ( 0.00%) 
+INFO  08:25:59,381 NSRuntimeProfile - Reduce  time:    0.0 s ( 0.00%) 
+INFO  08:25:59,381 NSRuntimeProfile - Outside time:    0.2 s (100.00%) 
