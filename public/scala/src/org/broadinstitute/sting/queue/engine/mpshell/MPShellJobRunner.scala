@@ -44,7 +44,8 @@ class MPShellJobRunner(val function: CommandLineFunction, pool: ExecutorService)
    * Runs the function on the local shell.
    */
   def start() {
-    val commandLine = Array("sh", jobScript.getAbsolutePath)
+//    val commandLine = Array("sh", jobScript.getAbsolutePath)
+    val commandLine = Array("ssh", "localhost", "sh", jobScript.getAbsolutePath)
     val stdoutSettings = new OutputStreamSettings
     val stderrSettings = new OutputStreamSettings
     val mergeError = (function.jobErrorFile == null)
