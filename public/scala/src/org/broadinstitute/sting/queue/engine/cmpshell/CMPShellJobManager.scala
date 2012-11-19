@@ -32,11 +32,17 @@ import java.util.concurrent.{Executors, ExecutorService}
 class CMPShellJobManager extends CommandLineJobManager[CMPShellJobRunner] {
   protected var pool: ExecutorService = null
 
+  var creationCount : Int = 0;
+
   def runnerType = classOf[CMPShellJobRunner]
-  def create(function: CommandLineFunction) = new CMPShellJobRunner(function, pool)
+  def create(function: CommandLineFunction) = {
+     creationCount += 1
+     new CMPShellJobRunner(function, pool, creationCount)
+  }
 
   override def init() {
-     pool = Executors.newFixedThreadPool( 8)
+     creationCount = 0;
+     pool = Executors.newFixedThreadPool( 64)
   }
 
   override def exit() {

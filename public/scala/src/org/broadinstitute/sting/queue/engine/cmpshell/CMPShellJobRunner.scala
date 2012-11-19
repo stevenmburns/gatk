@@ -36,7 +36,7 @@ import java.util.concurrent.{Executors, ExecutorService}
  * Runs jobs one at a time locally
  * @param function Command to run.
  */
-class CMPShellJobRunner(val function: CommandLineFunction, pool: ExecutorService) extends CommandLineJobRunner {
+class CMPShellJobRunner(val function: CommandLineFunction, pool: ExecutorService, creationCount: Int) extends CommandLineJobRunner {
   // Controller on the thread that started the job
   private var controller: ProcessController = null
 
@@ -45,7 +45,15 @@ class CMPShellJobRunner(val function: CommandLineFunction, pool: ExecutorService
    */
   def start() {
 //    val commandLine = Array("sh", jobScript.getAbsolutePath)
-    val commandLine = Array("ssh", "localhost", "sh", jobScript.getAbsolutePath)
+
+    val mod4 = creationCount % 4
+    val executionMachineName = if ( mod4 == 0) "canoespark0"
+                               else if ( mod4 == 1) "canoespark1"
+                               else if ( mod4 == 2) "canoespark2"           
+                               else if ( mod4 == 3) "canoespark3"
+                               else ""
+
+    val commandLine = Array("ssh", executionMachineName, "sh", jobScript.getAbsolutePath)
     val stdoutSettings = new OutputStreamSettings
     val stderrSettings = new OutputStreamSettings
     val mergeError = (function.jobErrorFile == null)
@@ -69,7 +77,7 @@ class CMPShellJobRunner(val function: CommandLineFunction, pool: ExecutorService
 
     val runIt = new Thread( new Runnable {
         def run() {
-	    getRunInfo.exechosts = Utils.resolveHostname()
+	    getRunInfo.exechosts = executionMachineName
 	    getRunInfo.startTime = new Date()
 
 	    controller = ProcessController.getThreadLocal
