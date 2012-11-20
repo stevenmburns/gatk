@@ -46,12 +46,7 @@ class CMPShellJobRunner(val function: CommandLineFunction, pool: ExecutorService
   def start() {
 //    val commandLine = Array("sh", jobScript.getAbsolutePath)
 
-    val mod4 = creationCount % 4
-    val executionMachineName = if ( mod4 == 0) "canoespark0"
-                               else if ( mod4 == 1) "canoespark1"
-                               else if ( mod4 == 2) "canoespark2"           
-                               else if ( mod4 == 3) "canoespark3"
-                               else ""
+    val executionMachineName = "canoespark%d" format ( creationCount %4)
 
     val commandLine = Array("ssh", executionMachineName, "sh", jobScript.getAbsolutePath)
     val stdoutSettings = new OutputStreamSettings
