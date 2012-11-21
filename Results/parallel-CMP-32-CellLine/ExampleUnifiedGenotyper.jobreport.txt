@@ -1,0 +1,57 @@
+#:GATKReport.v1.1:5
+#:GATKTable:10:1:%s:%s:%s:%s:%s:%s:%s:%s:%s:%s:;
+#:GATKTable:Concat:Job logs for Concat
+jobName                           exechosts  startTime      formattedStartTime    analysisName  iteration  intermediate  formattedDoneTime     runtime  doneTime     
+ExampleUnifiedGenotyper-1-35_194  sparkdmz0  1353333472643  12-11-19 8:57:52:643  Concat                1  false         12-11-19 8:57:52:645        2  1353333472645
+
+#:GATKTable:10:1:%s:%s:%s:%s:%s:%s:%s:%s:%s:%s:;
+#:GATKTable:Gather:Job logs for Gather
+jobName                           exechosts    startTime      formattedStartTime    analysisName  iteration  intermediate  formattedDoneTime     runtime  doneTime     
+ExampleUnifiedGenotyper-1-34_210  canoespark1  1353333412654  12-11-19 8:56:52:654  Gather                1  false         12-11-19 8:57:28:780    36126  1353333448780
+
+#:GATKTable:10:1:%s:%s:%s:%s:%s:%s:%s:%s:%s:%s:;
+#:GATKTable:LocusScatterFunction:Job logs for LocusScatterFunction
+jobName                          exechosts  startTime      formattedStartTime    analysisName          iteration  intermediate  formattedDoneTime     runtime  doneTime     
+ExampleUnifiedGenotyper-1-1_204  sparkdmz0  1353332992630  12-11-19 8:49:52:630  LocusScatterFunction          1  true          12-11-19 8:49:52:720       90  1353332992720
+
+#:GATKTable:10:32:%s:%s:%s:%s:%s:%s:%s:%s:%s:%s:;
+#:GATKTable:UnifiedGenotyper:Job logs for UnifiedGenotyper
+jobName                           exechosts    startTime      formattedStartTime    analysisName      iteration  intermediate  formattedDoneTime     runtime  doneTime     
+ExampleUnifiedGenotyper-1-4_184   canoespark3  1353333022699  12-11-19 8:50:22:699  UnifiedGenotyper          1  true          12-11-19 8:56:22:428   359729  1353333382428
+ExampleUnifiedGenotyper-1-21_185  canoespark0  1353333022974  12-11-19 8:50:22:974  UnifiedGenotyper          1  true          12-11-19 8:56:17:425   354451  1353333377425
+ExampleUnifiedGenotyper-1-25_186  canoespark0  1353333023021  12-11-19 8:50:23:021  UnifiedGenotyper          1  true          12-11-19 8:54:26:597   243576  1353333266597
+ExampleUnifiedGenotyper-1-15_187  canoespark2  1353333022888  12-11-19 8:50:22:888  UnifiedGenotyper          1  true          12-11-19 8:55:53:500   330612  1353333353500
+ExampleUnifiedGenotyper-1-20_189  canoespark3  1353333022962  12-11-19 8:50:22:962  UnifiedGenotyper          1  true          12-11-19 8:55:25:066   302104  1353333325066
+ExampleUnifiedGenotyper-1-16_190  canoespark3  1353333022906  12-11-19 8:50:22:906  UnifiedGenotyper          1  true          12-11-19 8:56:09:711   346805  1353333369711
+ExampleUnifiedGenotyper-1-11_191  canoespark2  1353333022833  12-11-19 8:50:22:833  UnifiedGenotyper          1  true          12-11-19 8:54:51:140   268307  1353333291140
+ExampleUnifiedGenotyper-1-30_192  canoespark1  1353333023070  12-11-19 8:50:23:070  UnifiedGenotyper          1  true          12-11-19 8:56:31:562   368492  1353333391562
+ExampleUnifiedGenotyper-1-2_193   canoespark1  1353333022666  12-11-19 8:50:22:666  UnifiedGenotyper          1  true          12-11-19 8:56:06:218   343552  1353333366218
+ExampleUnifiedGenotyper-1-26_195  canoespark1  1353333023031  12-11-19 8:50:23:031  UnifiedGenotyper          1  true          12-11-19 8:55:59:434   336403  1353333359434
+ExampleUnifiedGenotyper-1-28_196  canoespark3  1353333023051  12-11-19 8:50:23:051  UnifiedGenotyper          1  true          12-11-19 8:56:00:676   337625  1353333360676
+ExampleUnifiedGenotyper-1-14_197  canoespark1  1353333022875  12-11-19 8:50:22:875  UnifiedGenotyper          1  true          12-11-19 8:55:01:627   278752  1353333301627
+ExampleUnifiedGenotyper-1-7_198   canoespark2  1353333022764  12-11-19 8:50:22:764  UnifiedGenotyper          1  true          12-11-19 8:55:21:433   298669  1353333321433
+ExampleUnifiedGenotyper-1-24_199  canoespark3  1353333023009  12-11-19 8:50:23:009  UnifiedGenotyper          1  true          12-11-19 8:54:03:698   220689  1353333243698
+ExampleUnifiedGenotyper-1-23_200  canoespark2  1353333022997  12-11-19 8:50:22:997  UnifiedGenotyper          1  true          12-11-19 8:54:33:807   250810  1353333273807
+ExampleUnifiedGenotyper-1-6_201   canoespark1  1353333022748  12-11-19 8:50:22:748  UnifiedGenotyper          1  true          12-11-19 8:55:29:618   306870  1353333329618
+ExampleUnifiedGenotyper-1-33_202  canoespark0  1353333023099  12-11-19 8:50:23:099  UnifiedGenotyper          1  true          12-11-19 8:53:52:842   209743  1353333232842
+ExampleUnifiedGenotyper-1-27_203  canoespark2  1353333023041  12-11-19 8:50:23:041  UnifiedGenotyper          1  true          12-11-19 8:56:06:460   343419  1353333366460
+ExampleUnifiedGenotyper-1-32_205  canoespark3  1353333023089  12-11-19 8:50:23:089  UnifiedGenotyper          1  true          12-11-19 8:54:28:760   245671  1353333268760
+ExampleUnifiedGenotyper-1-31_206  canoespark2  1353333023079  12-11-19 8:50:23:079  UnifiedGenotyper          1  true          12-11-19 8:55:50:789   327710  1353333350789
+ExampleUnifiedGenotyper-1-12_207  canoespark3  1353333022846  12-11-19 8:50:22:846  UnifiedGenotyper          1  true          12-11-19 8:55:14:965   292119  1353333314965
+ExampleUnifiedGenotyper-1-17_208  canoespark0  1353333022920  12-11-19 8:50:22:920  UnifiedGenotyper          1  true          12-11-19 8:56:05:882   342962  1353333365882
+ExampleUnifiedGenotyper-1-22_209  canoespark1  1353333022987  12-11-19 8:50:22:987  UnifiedGenotyper          1  true          12-11-19 8:55:44:371   321384  1353333344371
+ExampleUnifiedGenotyper-1-19_211  canoespark2  1353333022949  12-11-19 8:50:22:949  UnifiedGenotyper          1  true          12-11-19 8:55:30:640   307691  1353333330640
+ExampleUnifiedGenotyper-1-10_212  canoespark1  1353333022822  12-11-19 8:50:22:822  UnifiedGenotyper          1  true          12-11-19 8:54:46:478   263656  1353333286478
+ExampleUnifiedGenotyper-1-18_213  canoespark1  1353333022934  12-11-19 8:50:22:934  UnifiedGenotyper          1  true          12-11-19 8:54:28:572   245638  1353333268572
+ExampleUnifiedGenotyper-1-29_214  canoespark0  1353333023061  12-11-19 8:50:23:061  UnifiedGenotyper          1  true          12-11-19 8:56:15:264   352203  1353333375264
+ExampleUnifiedGenotyper-1-13_215  canoespark0  1353333022862  12-11-19 8:50:22:862  UnifiedGenotyper          1  true          12-11-19 8:55:20:563   297701  1353333320563
+ExampleUnifiedGenotyper-1-9_216   canoespark0  1353333022791  12-11-19 8:50:22:791  UnifiedGenotyper          1  true          12-11-19 8:54:58:431   275640  1353333298431
+ExampleUnifiedGenotyper-1-3_217   canoespark2  1353333022683  12-11-19 8:50:22:683  UnifiedGenotyper          1  true          12-11-19 8:55:55:521   332838  1353333355521
+ExampleUnifiedGenotyper-1-5_218   canoespark0  1353333022732  12-11-19 8:50:22:732  UnifiedGenotyper          1  true          12-11-19 8:55:33:564   310832  1353333333564
+ExampleUnifiedGenotyper-1-8_219   canoespark3  1353333022779  12-11-19 8:50:22:779  UnifiedGenotyper          1  true          12-11-19 8:55:31:191   308412  1353333331191
+
+#:GATKTable:10:1:%s:%s:%s:%s:%s:%s:%s:%s:%s:%s:;
+#:GATKTable:VariantEval:Job logs for VariantEval
+jobName                        exechosts    startTime      formattedStartTime    analysisName  iteration  intermediate  formattedDoneTime     runtime  doneTime     
+ExampleUnifiedGenotyper-2_188  canoespark2  1353333472648  12-11-19 8:57:52:648  VariantEval           1  false         12-11-19 8:58:24:529    31881  1353333504529
+
